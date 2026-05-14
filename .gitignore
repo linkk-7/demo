@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime data / captured images
+new_data*/
+data*/
+output*/
+outputs*/
+results*/
+left/
+right/
+left_rec/
+right_rec/
+Camera_0/
+Camera_1/
+
+# Images and videos
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.avi
+*.mp4
+
+# Numpy / model / large data
+*.npy
+*.npz
+*.pth
+*.pt
+*.onnx
+*.mat
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
