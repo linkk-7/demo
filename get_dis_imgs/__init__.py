@@ -1,17 +1,10 @@
-﻿from .api import (
-    FRAME_ID_MAX,
-    capture_and_save_frame_pair,
-    continuous_capture,
-    infer_start_frame_id_from_cache,
-)
-from .capture import CameraController
-from .models import FramePacket
+﻿from .api import continuous_capture_disk, continuous_capture_online
+from .models import FrameMeta, FramePacket
 
 __all__ = [
-    "CameraController",
+    "FrameMeta",
     "FramePacket",
-    "FRAME_ID_MAX",
-    "capture_and_save_frame_pair",
-    "continuous_capture",
-    "infer_start_frame_id_from_cache",
+    "continuous_capture_online",  # 在线模式
+    "continuous_capture_disk",    # 存盘模式
 ]
+

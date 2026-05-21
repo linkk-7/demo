@@ -33,3 +33,4 @@ class RetentionRecord:
     frame_id: int
     left_path: str
     right_path: str
+
