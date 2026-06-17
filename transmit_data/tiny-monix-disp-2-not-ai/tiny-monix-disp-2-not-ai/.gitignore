@@ -1,0 +1,44 @@
+/assets/
+/output/
+/__pycache__/
+/venv/
+/output*/
+
+
+/.vscode/
+*.log
+*.mp4
+*.png
+*.yaml
+*.jpg
+
+/backup*/
+
+*/__pycache__/*
+
+/test/
+
+*.db
+
+# 忽略所有 .ini 文件
+*.ini
+
+#
+*.roi
+*.zip
+*.npz
+*.tif
+
+# 但是不忽略以 .template.ini 结尾的文件
+!*.template.ini
+
+#忽略掉 test_filter.py
+test_filter.py
+
+#忽视掉 init_camera.py
+init_camera.py
+
+#忽视掉 update_camera.py
+update_camera.py
+
+*.exe

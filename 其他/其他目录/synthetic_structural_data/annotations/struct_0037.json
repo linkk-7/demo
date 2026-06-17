@@ -1,0 +1,445 @@
+{
+  "features": [
+    {
+      "id": 0,
+      "type": "edge_center",
+      "position": [
+        129.75438674751882,
+        113.60143520106524
+      ],
+      "angle": 0.7434048579056934,
+      "length": 84.4647787153176,
+      "thickness": 2.8739222618379454,
+      "start_point_id": 1,
+      "end_point_id": 2
+    },
+    {
+      "id": 1,
+      "type": "edge_start",
+      "position": [
+        98.66423505965206,
+        85.01862255286129
+      ],
+      "parent_id": 0
+    },
+    {
+      "id": 2,
+      "type": "edge_end",
+      "position": [
+        160.84453843538557,
+        142.18424784926918
+      ],
+      "parent_id": 0
+    },
+    {
+      "id": 3,
+      "type": "edge_center",
+      "position": [
+        395.34887195425165,
+        408.9425980519781
+      ],
+      "angle": 1.7828473392488169,
+      "length": 125.62518401605234,
+      "thickness": 2.301621893205862,
+      "start_point_id": 4,
+      "end_point_id": 5
+    },
+    {
+      "id": 4,
+      "type": "edge_start",
+      "position": [
+        408.56875010844516,
+        347.53692619379365
+      ],
+      "parent_id": 3
+    },
+    {
+      "id": 5,
+      "type": "edge_end",
+      "position": [
+        382.12899380005814,
+        470.34826991016257
+      ],
+      "parent_id": 3
+    },
+    {
+      "id": 6,
+      "type": "edge_center",
+      "position": [
+        325.44972260586945,
+        334.48272865660573
+      ],
+      "angle": 2.3092986632982715,
+      "length": 147.80115598152912,
+      "thickness": 1.0453779517135573,
+      "start_point_id": 7,
+      "end_point_id": 8
+    },
+    {
+      "id": 7,
+      "type": "edge_start",
+      "position": [
+        375.19820078401017,
+        279.83490759914605
+      ],
+      "parent_id": 6
+    },
+    {
+      "id": 8,
+      "type": "edge_end",
+      "position": [
+        275.70124442772874,
+        389.1305497140654
+      ],
+      "parent_id": 6
+    },
+    {
+      "id": 9,
+      "type": "corner",
+      "position": [
+        118.1449357450868,
+        208.5930753957157
+      ],
+      "angle1": 3.46843097877408,
+      "angle2": 4.566305596548963,
+      "thickness": 1.680304997562572,
+      "line1_end_id": 10,
+      "line2_end_id": 11
+    },
+    {
+      "id": 10,
+      "type": "corner_end1",
+      "position": [
+        56.09335793333741,
+        187.55783472733086
+      ],
+      "parent_id": 9
+    },
+    {
+      "id": 11,
+      "type": "corner_end2",
+      "position": [
+        107.97648583974299,
+        139.48176549534594
+      ],
+      "parent_id": 9
+    },
+    {
+      "id": 12,
+      "type": "corner",
+      "position": [
+        393.85094571019334,
+        309.86926472502273
+      ],
+      "angle1": 0.571285808049771,
+      "angle2": 1.5582745000217013,
+      "thickness": 2.422290783364833,
+      "line1_end_id": 13,
+      "line2_end_id": 14
+    },
+    {
+      "id": 13,
+      "type": "corner_end1",
+      "position": [
+        424.4470970260543,
+        329.53598490388316
+      ],
+      "parent_id": 12
+    },
+    {
+      "id": 14,
+      "type": "corner_end2",
+      "position": [
+        394.6787376244376,
+        375.97372886785365
+      ],
+      "parent_id": 12
+    },
+    {
+      "id": 15,
+      "type": "corner",
+      "position": [
+        286.5237893045795,
+        100.5206279878669
+      ],
+      "angle1": 4.364084475785168,
+      "angle2": 5.833047069454899,
+      "thickness": 2.1339708150197296,
+      "line1_end_id": 16,
+      "line2_end_id": 17
+    },
+    {
+      "id": 16,
+      "type": "corner_end1",
+      "position": [
+        270.62980783890885,
+        56.74861052179561
+      ],
+      "parent_id": 15
+    },
+    {
+      "id": 17,
+      "type": "corner_end2",
+      "position": [
+        313.5551273185607,
+        87.45839422974804
+      ],
+      "parent_id": 15
+    },
+    {
+      "id": 18,
+      "type": "crossing",
+      "position": [
+        422.0216554652238,
+        197.41273989202585
+      ],
+      "angle": 0.5506029776775198,
+      "length": 83.9416255480372,
+      "thickness": 2.090558519613684,
+      "h_start_id": 19,
+      "h_end_id": 20,
+      "v_start_id": 21,
+      "v_end_id": 22
+    },
+    {
+      "id": 19,
+      "type": "crossing_h_start",
+      "position": [
+        380.05084269120516,
+        197.41273989202585
+      ],
+      "parent_id": 18
+    },
+    {
+      "id": 20,
+      "type": "crossing_h_end",
+      "position": [
+        463.9924682392424,
+        197.41273989202585
+      ],
+      "parent_id": 18
+    },
+    {
+      "id": 21,
+      "type": "crossing_v_start",
+      "position": [
+        422.0216554652238,
+        155.44192711800724
+      ],
+      "parent_id": 18
+    },
+    {
+      "id": 22,
+      "type": "crossing_v_end",
+      "position": [
+        422.0216554652238,
+        239.38355266604447
+      ],
+      "parent_id": 18
+    },
+    {
+      "id": 23,
+      "type": "crossing",
+      "position": [
+        417.37096827451126,
+        107.09696924806437
+      ],
+      "angle": 0.9203306309400828,
+      "length": 73.32514740782449,
+      "thickness": 1.2037603097063,
+      "h_start_id": 24,
+      "h_end_id": 25,
+      "v_start_id": 26,
+      "v_end_id": 27
+    },
+    {
+      "id": 24,
+      "type": "crossing_h_start",
+      "position": [
+        380.708394570599,
+        107.09696924806437
+      ],
+      "parent_id": 23
+    },
+    {
+      "id": 25,
+      "type": "crossing_h_end",
+      "position": [
+        454.0335419784235,
+        107.09696924806437
+      ],
+      "parent_id": 23
+    },
+    {
+      "id": 26,
+      "type": "crossing_v_start",
+      "position": [
+        417.37096827451126,
+        70.43439554415212
+      ],
+      "parent_id": 23
+    },
+    {
+      "id": 27,
+      "type": "crossing_v_end",
+      "position": [
+        417.37096827451126,
+        143.7595429519766
+      ],
+      "parent_id": 23
+    },
+    {
+      "id": 28,
+      "type": "crossing",
+      "position": [
+        232.66057802247101,
+        95.22286861065598
+      ],
+      "angle": 0.08036502815851108,
+      "length": 89.50915912800039,
+      "thickness": 1.5406872788500088,
+      "h_start_id": 29,
+      "h_end_id": 30,
+      "v_start_id": 31,
+      "v_end_id": 32
+    },
+    {
+      "id": 29,
+      "type": "crossing_h_start",
+      "position": [
+        187.90599845847083,
+        95.22286861065598
+      ],
+      "parent_id": 28
+    },
+    {
+      "id": 30,
+      "type": "crossing_h_end",
+      "position": [
+        277.4151575864712,
+        95.22286861065598
+      ],
+      "parent_id": 28
+    },
+    {
+      "id": 31,
+      "type": "crossing_v_start",
+      "position": [
+        232.66057802247101,
+        50.468289046655784
+      ],
+      "parent_id": 28
+    },
+    {
+      "id": 32,
+      "type": "crossing_v_end",
+      "position": [
+        232.66057802247101,
+        139.97744817465616
+      ],
+      "parent_id": 28
+    },
+    {
+      "id": 33,
+      "type": "crossing",
+      "position": [
+        80.62955208878104,
+        251.3636996885721
+      ],
+      "angle": 1.1269127414765077,
+      "length": 70.67095372924287,
+      "thickness": 1.3015521472354017,
+      "h_start_id": 34,
+      "h_end_id": 35,
+      "v_start_id": 36,
+      "v_end_id": 37
+    },
+    {
+      "id": 34,
+      "type": "crossing_h_start",
+      "position": [
+        45.294075224159606,
+        251.3636996885721
+      ],
+      "parent_id": 33
+    },
+    {
+      "id": 35,
+      "type": "crossing_h_end",
+      "position": [
+        115.96502895340248,
+        251.3636996885721
+      ],
+      "parent_id": 33
+    },
+    {
+      "id": 36,
+      "type": "crossing_v_start",
+      "position": [
+        80.62955208878104,
+        216.02822282395067
+      ],
+      "parent_id": 33
+    },
+    {
+      "id": 37,
+      "type": "crossing_v_end",
+      "position": [
+        80.62955208878104,
+        286.6991765531935
+      ],
+      "parent_id": 33
+    },
+    {
+      "id": 38,
+      "type": "crossing",
+      "position": [
+        301.6254133764555,
+        346.1581732169501
+      ],
+      "angle": 1.2817997806389472,
+      "length": 73.10974551146265,
+      "thickness": 1.9150437412241783,
+      "h_start_id": 39,
+      "h_end_id": 40,
+      "v_start_id": 41,
+      "v_end_id": 42
+    },
+    {
+      "id": 39,
+      "type": "crossing_h_start",
+      "position": [
+        265.0705406207242,
+        346.1581732169501
+      ],
+      "parent_id": 38
+    },
+    {
+      "id": 40,
+      "type": "crossing_h_end",
+      "position": [
+        338.18028613218684,
+        346.1581732169501
+      ],
+      "parent_id": 38
+    },
+    {
+      "id": 41,
+      "type": "crossing_v_start",
+      "position": [
+        301.6254133764555,
+        309.6033004612188
+      ],
+      "parent_id": 38
+    },
+    {
+      "id": 42,
+      "type": "crossing_v_end",
+      "position": [
+        301.6254133764555,
+        382.7130459726814
+      ],
+      "parent_id": 38
+    }
+  ]
+}
